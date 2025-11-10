@@ -102,11 +102,11 @@ void chuc_nang_7a(int y){
 void chuc_nang_7b(int y){
 	int low=0;
 	int high=n-1;
-	int count=0;
+	int coun=0;
 	while(low<=high){
 		int mid=(low+high)/2;
 		if(array[mid]==y){
-			count++;
+			coun++;
 			break;
 		}
 		else {
@@ -118,7 +118,7 @@ void chuc_nang_7b(int y){
 			}
 		}
 	}
-	if(count>0){
+	if(coun>0){
 		printf("Phan tu co trong mang ");
 	}
 	else {
@@ -198,3 +198,4 @@ int main(){
 		}
 	}while(a!=8);
 }
+
